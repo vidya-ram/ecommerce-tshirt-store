@@ -1,0 +1,52 @@
+.container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+.nolink {
+  text-decoration: none;
+  color: inherit;
+}
+.nostyle {
+  list-style: none;
+  padding-left: 16px;
+}
+.icons {
+  font-size: 10px;
+  padding: 16px;
+  background: black;
+  margin: 2px 2px 0;
+  color: white;
+  vertical-align: bottom;
+}
+
+.icons--small {
+  padding: 8px;
+}
+
+.btn {
+  width: auto;
+  padding: 0 16px;
+  height: 32px;
+  margin: 0;
+  background: #eee;
+  display: inline-block;
+  line-height: 32px;
+  border: 1px solid #ccc;
+}
+.nobtnstyle {
+  border: none;
+}
